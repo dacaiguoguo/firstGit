@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028E049416D0860300B445DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028E049316D0860300B445DD /* UIKit.framework */; };
+		028E049616D0860300B445DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028E049516D0860300B445DD /* Foundation.framework */; };
+		028E049816D0860300B445DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028E049716D0860300B445DD /* CoreGraphics.framework */; };
+		028E049E16D0860300B445DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 028E049C16D0860300B445DD /* InfoPlist.strings */; };
+		028E04A016D0860300B445DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E049F16D0860300B445DD /* main.m */; };
+		028E04A416D0860400B445DD /* SYGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E04A316D0860400B445DD /* SYGAppDelegate.m */; };
+		028E04A616D0860400B445DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 028E04A516D0860400B445DD /* Default.png */; };
+		028E04A816D0860400B445DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028E04A716D0860400B445DD /* Default@2x.png */; };
+		028E04AA16D0860400B445DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 028E04A916D0860400B445DD /* Default-568h@2x.png */; };
+		028E04AD16D0860400B445DD /* SYGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E04AC16D0860400B445DD /* SYGViewController.m */; };
+		028E04B016D0860400B445DD /* SYGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 028E04AE16D0860400B445DD /* SYGViewController.xib */; };
+		028E04B816D0860400B445DD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028E04B716D0860400B445DD /* SenTestingKit.framework */; };
+		028E04B916D0860400B445DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028E049316D0860300B445DD /* UIKit.framework */; };
+		028E04BA16D0860400B445DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028E049516D0860300B445DD /* Foundation.framework */; };
+		028E04C216D0860400B445DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 028E04C016D0860400B445DD /* InfoPlist.strings */; };
+		028E04C516D0860400B445DD /* SYGUseFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E04C416D0860400B445DD /* SYGUseFrameTests.m */; };
+		02FEF55B16D0C59D00964801 /* fireHulogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FEF55A16D0C59D00964801 /* fireHulogo1.png */; };
+		02FEF55D16D0C5A000964801 /* fireHulogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FEF55C16D0C5A000964801 /* fireHulogo2.png */; };
+		02FEF56416D0E0F600964801 /* SYGFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FEF56316D0E0F600964801 /* SYGFrame.framework */; };
+		02FEF56616D0E3CA00964801 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FEF56516D0E3CA00964801 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		028E04BB16D0860400B445DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028E048816D0860300B445DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028E048F16D0860300B445DD;
+			remoteInfo = SYGUseFrame;
+		};
+		028E04EC16D0862000B445DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028E04E816D0861F00B445DD /* SYGFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 028E04D716D0861F00B445DD;
+			remoteInfo = SYGFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028E049016D0860300B445DD /* SYGUseFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYGUseFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028E049316D0860300B445DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		028E049516D0860300B445DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		028E049716D0860300B445DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		028E049B16D0860300B445DD /* SYGUseFrame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SYGUseFrame-Info.plist"; sourceTree = "<group>"; };
+		028E049D16D0860300B445DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		028E049F16D0860300B445DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		028E04A116D0860300B445DD /* SYGUseFrame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYGUseFrame-Prefix.pch"; sourceTree = "<group>"; };
+		028E04A216D0860400B445DD /* SYGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGAppDelegate.h; sourceTree = "<group>"; };
+		028E04A316D0860400B445DD /* SYGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYGAppDelegate.m; sourceTree = "<group>"; };
+		028E04A516D0860400B445DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		028E04A716D0860400B445DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		028E04A916D0860400B445DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		028E04AB16D0860400B445DD /* SYGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGViewController.h; sourceTree = "<group>"; };
+		028E04AC16D0860400B445DD /* SYGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYGViewController.m; sourceTree = "<group>"; };
+		028E04AF16D0860400B445DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SYGViewController.xib; sourceTree = "<group>"; };
+		028E04B616D0860400B445DD /* SYGUseFrameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYGUseFrameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		028E04B716D0860400B445DD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		028E04BF16D0860400B445DD /* SYGUseFrameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SYGUseFrameTests-Info.plist"; sourceTree = "<group>"; };
+		028E04C116D0860400B445DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		028E04C316D0860400B445DD /* SYGUseFrameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGUseFrameTests.h; sourceTree = "<group>"; };
+		028E04C416D0860400B445DD /* SYGUseFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYGUseFrameTests.m; sourceTree = "<group>"; };
+		028E04E816D0861F00B445DD /* SYGFrame.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SYGFrame.xcodeproj; path = SYGFrame/SYGFrame.xcodeproj; sourceTree = "<group>"; };
+		02FEF55A16D0C59D00964801 /* fireHulogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fireHulogo1.png; path = ../fireHulogo1.png; sourceTree = "<group>"; };
+		02FEF55C16D0C5A000964801 /* fireHulogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fireHulogo2.png; path = ../fireHulogo2.png; sourceTree = "<group>"; };
+		02FEF56316D0E0F600964801 /* SYGFrame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SYGFrame.framework; path = "../../Library/Developer/Xcode/DerivedData/SYGUseFrame-gleibaxojdbyvqajyprmlcqihetr/Build/Products/Release-iphoneos/SYGFrame.framework"; sourceTree = "<group>"; };
+		02FEF56516D0E3CA00964801 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028E048D16D0860300B445DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E049416D0860300B445DD /* UIKit.framework in Frameworks */,
+				028E049616D0860300B445DD /* Foundation.framework in Frameworks */,
+				028E049816D0860300B445DD /* CoreGraphics.framework in Frameworks */,
+				02FEF56416D0E0F600964801 /* SYGFrame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028E04B216D0860400B445DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E04B816D0860400B445DD /* SenTestingKit.framework in Frameworks */,
+				028E04B916D0860400B445DD /* UIKit.framework in Frameworks */,
+				028E04BA16D0860400B445DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028E048716D0860300B445DD = {
+			isa = PBXGroup;
+			children = (
+				028E04E816D0861F00B445DD /* SYGFrame.xcodeproj */,
+				028E049916D0860300B445DD /* SYGUseFrame */,
+				028E04BD16D0860400B445DD /* SYGUseFrameTests */,
+				028E049216D0860300B445DD /* Frameworks */,
+				028E049116D0860300B445DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		028E049116D0860300B445DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028E049016D0860300B445DD /* SYGUseFrame.app */,
+				028E04B616D0860400B445DD /* SYGUseFrameTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028E049216D0860300B445DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02FEF56316D0E0F600964801 /* SYGFrame.framework */,
+				028E049316D0860300B445DD /* UIKit.framework */,
+				028E049516D0860300B445DD /* Foundation.framework */,
+				028E049716D0860300B445DD /* CoreGraphics.framework */,
+				028E04B716D0860400B445DD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		028E049916D0860300B445DD /* SYGUseFrame */ = {
+			isa = PBXGroup;
+			children = (
+				028E04A216D0860400B445DD /* SYGAppDelegate.h */,
+				028E04A316D0860400B445DD /* SYGAppDelegate.m */,
+				028E04AB16D0860400B445DD /* SYGViewController.h */,
+				028E04AC16D0860400B445DD /* SYGViewController.m */,
+				028E04AE16D0860400B445DD /* SYGViewController.xib */,
+				028E049A16D0860300B445DD /* Supporting Files */,
+			);
+			path = SYGUseFrame;
+			sourceTree = "<group>";
+		};
+		028E049A16D0860300B445DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02FEF55C16D0C5A000964801 /* fireHulogo2.png */,
+				02FEF55A16D0C59D00964801 /* fireHulogo1.png */,
+				02FEF56516D0E3CA00964801 /* Icon.png */,
+				028E049B16D0860300B445DD /* SYGUseFrame-Info.plist */,
+				028E049C16D0860300B445DD /* InfoPlist.strings */,
+				028E049F16D0860300B445DD /* main.m */,
+				028E04A116D0860300B445DD /* SYGUseFrame-Prefix.pch */,
+				028E04A516D0860400B445DD /* Default.png */,
+				028E04A716D0860400B445DD /* Default@2x.png */,
+				028E04A916D0860400B445DD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		028E04BD16D0860400B445DD /* SYGUseFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				028E04C316D0860400B445DD /* SYGUseFrameTests.h */,
+				028E04C416D0860400B445DD /* SYGUseFrameTests.m */,
+				028E04BE16D0860400B445DD /* Supporting Files */,
+			);
+			path = SYGUseFrameTests;
+			sourceTree = "<group>";
+		};
+		028E04BE16D0860400B445DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				028E04BF16D0860400B445DD /* SYGUseFrameTests-Info.plist */,
+				028E04C016D0860400B445DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		028E04E916D0861F00B445DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028E04ED16D0862000B445DD /* SYGFrame.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028E048F16D0860300B445DD /* SYGUseFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028E04C816D0860400B445DD /* Build configuration list for PBXNativeTarget "SYGUseFrame" */;
+			buildPhases = (
+				028E048C16D0860300B445DD /* Sources */,
+				028E048D16D0860300B445DD /* Frameworks */,
+				028E048E16D0860300B445DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYGUseFrame;
+			productName = SYGUseFrame;
+			productReference = 028E049016D0860300B445DD /* SYGUseFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		028E04B516D0860400B445DD /* SYGUseFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028E04CB16D0860400B445DD /* Build configuration list for PBXNativeTarget "SYGUseFrameTests" */;
+			buildPhases = (
+				028E04B116D0860400B445DD /* Sources */,
+				028E04B216D0860400B445DD /* Frameworks */,
+				028E04B316D0860400B445DD /* Resources */,
+				028E04B416D0860400B445DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028E04BC16D0860400B445DD /* PBXTargetDependency */,
+			);
+			name = SYGUseFrameTests;
+			productName = SYGUseFrameTests;
+			productReference = 028E04B616D0860400B445DD /* SYGUseFrameTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028E048816D0860300B445DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SYG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = dacaiguoguo;
+			};
+			buildConfigurationList = 028E048B16D0860300B445DD /* Build configuration list for PBXProject "SYGUseFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 028E048716D0860300B445DD;
+			productRefGroup = 028E049116D0860300B445DD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 028E04E916D0861F00B445DD /* Products */;
+					ProjectRef = 028E04E816D0861F00B445DD /* SYGFrame.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				028E048F16D0860300B445DD /* SYGUseFrame */,
+				028E04B516D0860400B445DD /* SYGUseFrameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		028E04ED16D0862000B445DD /* SYGFrame.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SYGFrame.framework;
+			remoteRef = 028E04EC16D0862000B445DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028E048E16D0860300B445DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E049E16D0860300B445DD /* InfoPlist.strings in Resources */,
+				028E04A616D0860400B445DD /* Default.png in Resources */,
+				028E04A816D0860400B445DD /* Default@2x.png in Resources */,
+				028E04AA16D0860400B445DD /* Default-568h@2x.png in Resources */,
+				028E04B016D0860400B445DD /* SYGViewController.xib in Resources */,
+				02FEF55B16D0C59D00964801 /* fireHulogo1.png in Resources */,
+				02FEF55D16D0C5A000964801 /* fireHulogo2.png in Resources */,
+				02FEF56616D0E3CA00964801 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028E04B316D0860400B445DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E04C216D0860400B445DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		028E04B416D0860400B445DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028E048C16D0860300B445DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E04A016D0860300B445DD /* main.m in Sources */,
+				028E04A416D0860400B445DD /* SYGAppDelegate.m in Sources */,
+				028E04AD16D0860400B445DD /* SYGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028E04B116D0860400B445DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E04C516D0860400B445DD /* SYGUseFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		028E04BC16D0860400B445DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028E048F16D0860300B445DD /* SYGUseFrame */;
+			targetProxy = 028E04BB16D0860400B445DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		028E049C16D0860300B445DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028E049D16D0860300B445DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		028E04AE16D0860400B445DD /* SYGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028E04AF16D0860400B445DD /* en */,
+			);
+			name = SYGViewController.xib;
+			sourceTree = "<group>";
+		};
+		028E04C016D0860400B445DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028E04C116D0860400B445DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028E04C616D0860400B445DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		028E04C716D0860400B445DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028E04C916D0860400B445DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SYGUseFrame/SYGUseFrame-Prefix.pch";
+				INFOPLIST_FILE = "SYGUseFrame/SYGUseFrame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		028E04CA16D0860400B445DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SYGUseFrame/SYGUseFrame-Prefix.pch";
+				INFOPLIST_FILE = "SYGUseFrame/SYGUseFrame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		028E04CC16D0860400B445DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SYGUseFrame.app/SYGUseFrame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SYGUseFrame/SYGUseFrame-Prefix.pch";
+				INFOPLIST_FILE = "SYGUseFrameTests/SYGUseFrameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		028E04CD16D0860400B445DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SYGUseFrame.app/SYGUseFrame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SYGUseFrame/SYGUseFrame-Prefix.pch";
+				INFOPLIST_FILE = "SYGUseFrameTests/SYGUseFrameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028E048B16D0860300B445DD /* Build configuration list for PBXProject "SYGUseFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028E04C616D0860400B445DD /* Debug */,
+				028E04C716D0860400B445DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028E04C816D0860400B445DD /* Build configuration list for PBXNativeTarget "SYGUseFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028E04C916D0860400B445DD /* Debug */,
+				028E04CA16D0860400B445DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028E04CB16D0860400B445DD /* Build configuration list for PBXNativeTarget "SYGUseFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028E04CC16D0860400B445DD /* Debug */,
+				028E04CD16D0860400B445DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028E048816D0860300B445DD /* Project object */;
+}

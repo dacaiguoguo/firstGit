@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028E04E116D0861F00B445DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 028E04DF16D0861F00B445DD /* InfoPlist.strings */; };
+		028E04F416D0BA7300B445DD /* SYGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E04F316D0BA7300B445DD /* SYGButton.m */; };
+		028E04F816D0BA9E00B445DD /* SYGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E04F616D0BA9E00B445DD /* SYGBaseViewController.m */; };
+		028E04F916D0BA9E00B445DD /* SYGBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 028E04F716D0BA9E00B445DD /* SYGBaseViewController.xib */; };
+		028E050416D0C36D00B445DD /* SYGButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 028E04F216D0BA7300B445DD /* SYGButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028E050516D0C37500B445DD /* SYGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 028E04F516D0BA9E00B445DD /* SYGBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028E050616D0C37800B445DD /* SYGFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 028E04FA16D0BABB00B445DD /* SYGFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028E04D716D0861F00B445DD /* SYGFrame.framework */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SYGFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		028E04DE16D0861F00B445DD /* SYGFrame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SYGFrame-Info.plist"; sourceTree = "<group>"; };
+		028E04E016D0861F00B445DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		028E04EE16D0B90700B445DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		028E04F016D0B91600B445DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		028E04F216D0BA7300B445DD /* SYGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGButton.h; sourceTree = "<group>"; };
+		028E04F316D0BA7300B445DD /* SYGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGButton.m; sourceTree = "<group>"; };
+		028E04F516D0BA9E00B445DD /* SYGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGBaseViewController.h; sourceTree = "<group>"; };
+		028E04F616D0BA9E00B445DD /* SYGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGBaseViewController.m; sourceTree = "<group>"; };
+		028E04F716D0BA9E00B445DD /* SYGBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYGBaseViewController.xib; sourceTree = "<group>"; };
+		028E04FA16D0BABB00B445DD /* SYGFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGFrame.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028E04D416D0861F00B445DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028E04CE16D0861F00B445DD = {
+			isa = PBXGroup;
+			children = (
+				028E04DC16D0861F00B445DD /* SYGFrame */,
+				028E04D916D0861F00B445DD /* Frameworks */,
+				028E04D816D0861F00B445DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		028E04D816D0861F00B445DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028E04D716D0861F00B445DD /* SYGFrame.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028E04D916D0861F00B445DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				028E04F016D0B91600B445DD /* Foundation.framework */,
+				028E04EE16D0B90700B445DD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		028E04DC16D0861F00B445DD /* SYGFrame */ = {
+			isa = PBXGroup;
+			children = (
+				028E04F516D0BA9E00B445DD /* SYGBaseViewController.h */,
+				028E04F616D0BA9E00B445DD /* SYGBaseViewController.m */,
+				028E04F716D0BA9E00B445DD /* SYGBaseViewController.xib */,
+				028E04F216D0BA7300B445DD /* SYGButton.h */,
+				028E04F316D0BA7300B445DD /* SYGButton.m */,
+				028E04FA16D0BABB00B445DD /* SYGFrame.h */,
+				028E04DD16D0861F00B445DD /* Supporting Files */,
+			);
+			path = SYGFrame;
+			sourceTree = "<group>";
+		};
+		028E04DD16D0861F00B445DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				028E04DE16D0861F00B445DD /* SYGFrame-Info.plist */,
+				028E04DF16D0861F00B445DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		028E050316D0C36400B445DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E050416D0C36D00B445DD /* SYGButton.h in Headers */,
+				028E050516D0C37500B445DD /* SYGBaseViewController.h in Headers */,
+				028E050616D0C37800B445DD /* SYGFrame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		028E04D616D0861F00B445DD /* SYGFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028E04E516D0861F00B445DD /* Build configuration list for PBXNativeTarget "SYGFrame" */;
+			buildPhases = (
+				028E04D316D0861F00B445DD /* Sources */,
+				028E04D416D0861F00B445DD /* Frameworks */,
+				028E04D516D0861F00B445DD /* Resources */,
+				028E050316D0C36400B445DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYGFrame;
+			productName = SYGFrame;
+			productReference = 028E04D716D0861F00B445DD /* SYGFrame.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028E04CF16D0861F00B445DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = dacaiguoguo;
+			};
+			buildConfigurationList = 028E04D216D0861F00B445DD /* Build configuration list for PBXProject "SYGFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 028E04CE16D0861F00B445DD;
+			productRefGroup = 028E04D816D0861F00B445DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028E04D616D0861F00B445DD /* SYGFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028E04D516D0861F00B445DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E04E116D0861F00B445DD /* InfoPlist.strings in Resources */,
+				028E04F916D0BA9E00B445DD /* SYGBaseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028E04D316D0861F00B445DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E04F416D0BA7300B445DD /* SYGButton.m in Sources */,
+				028E04F816D0BA9E00B445DD /* SYGBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		028E04DF16D0861F00B445DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028E04E016D0861F00B445DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028E04E316D0861F00B445DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		028E04E416D0861F00B445DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		028E04E616D0861F00B445DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SYGFrame/SYGFrame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		028E04E716D0861F00B445DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SYGFrame/SYGFrame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028E04D216D0861F00B445DD /* Build configuration list for PBXProject "SYGFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028E04E316D0861F00B445DD /* Debug */,
+				028E04E416D0861F00B445DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028E04E516D0861F00B445DD /* Build configuration list for PBXNativeTarget "SYGFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028E04E616D0861F00B445DD /* Debug */,
+				028E04E716D0861F00B445DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028E04CF16D0861F00B445DD /* Project object */;
+}
