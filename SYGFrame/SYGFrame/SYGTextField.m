@@ -1,21 +1,20 @@
 //
-//  SYGButton.m
+//  SYGTextField.m
 //  SYGFrame
 //
-//  Created by YangBin on 13-2-17.
+//  Created by YangBin on 13-2-19.
 //  Copyright (c) 2013年 dacaiguoguo. All rights reserved.
 //
 
-#import "SYGButton.h"
+#import "SYGTextField.h"
 
-@implementation SYGButton
+@implementation SYGTextField
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        self.backgroundColor = [UIColor greenColor];
     }
     return self;
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0239B85716D35B9C002101B6 /* SYGTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0239B85516D35B9C002101B6 /* SYGTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0239B85816D35B9C002101B6 /* SYGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239B85616D35B9C002101B6 /* SYGTextField.m */; };
 		028E04E116D0861F00B445DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 028E04DF16D0861F00B445DD /* InfoPlist.strings */; };
 		028E04F416D0BA7300B445DD /* SYGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E04F316D0BA7300B445DD /* SYGButton.m */; };
 		028E04F816D0BA9E00B445DD /* SYGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E04F616D0BA9E00B445DD /* SYGBaseViewController.m */; };
@@ -14,9 +16,13 @@
 		028E050416D0C36D00B445DD /* SYGButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 028E04F216D0BA7300B445DD /* SYGButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		028E050516D0C37500B445DD /* SYGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 028E04F516D0BA9E00B445DD /* SYGBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		028E050616D0C37800B445DD /* SYGFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 028E04FA16D0BABB00B445DD /* SYGFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028EF7D716D1054700C09C31 /* SYGLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 028EF7D516D1054700C09C31 /* SYGLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028EF7D816D1054700C09C31 /* SYGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EF7D616D1054700C09C31 /* SYGLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0239B85516D35B9C002101B6 /* SYGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGTextField.h; sourceTree = "<group>"; };
+		0239B85616D35B9C002101B6 /* SYGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGTextField.m; sourceTree = "<group>"; };
 		028E04D716D0861F00B445DD /* SYGFrame.framework */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SYGFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		028E04DE16D0861F00B445DD /* SYGFrame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SYGFrame-Info.plist"; sourceTree = "<group>"; };
 		028E04E016D0861F00B445DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -28,6 +34,8 @@
 		028E04F616D0BA9E00B445DD /* SYGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGBaseViewController.m; sourceTree = "<group>"; };
 		028E04F716D0BA9E00B445DD /* SYGBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYGBaseViewController.xib; sourceTree = "<group>"; };
 		028E04FA16D0BABB00B445DD /* SYGFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGFrame.h; sourceTree = "<group>"; };
+		028EF7D516D1054700C09C31 /* SYGLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGLabel.h; sourceTree = "<group>"; };
+		028EF7D616D1054700C09C31 /* SYGLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,10 @@
 				028E04F716D0BA9E00B445DD /* SYGBaseViewController.xib */,
 				028E04F216D0BA7300B445DD /* SYGButton.h */,
 				028E04F316D0BA7300B445DD /* SYGButton.m */,
+				028EF7D516D1054700C09C31 /* SYGLabel.h */,
+				0239B85516D35B9C002101B6 /* SYGTextField.h */,
+				0239B85616D35B9C002101B6 /* SYGTextField.m */,
+				028EF7D616D1054700C09C31 /* SYGLabel.m */,
 				028E04FA16D0BABB00B445DD /* SYGFrame.h */,
 				028E04DD16D0861F00B445DD /* Supporting Files */,
 			);
@@ -100,6 +112,8 @@
 				028E050416D0C36D00B445DD /* SYGButton.h in Headers */,
 				028E050516D0C37500B445DD /* SYGBaseViewController.h in Headers */,
 				028E050616D0C37800B445DD /* SYGFrame.h in Headers */,
+				028EF7D716D1054700C09C31 /* SYGLabel.h in Headers */,
+				0239B85716D35B9C002101B6 /* SYGTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +124,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 028E04E516D0861F00B445DD /* Build configuration list for PBXNativeTarget "SYGFrame" */;
 			buildPhases = (
+				028EF7D416D0F9FE00C09C31 /* ShellScript */,
 				028E04D316D0861F00B445DD /* Sources */,
 				028E04D416D0861F00B445DD /* Frameworks */,
 				028E04D516D0861F00B445DD /* Resources */,
@@ -162,6 +177,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		028EF7D416D0F9FE00C09C31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#xcodebuild -alltargets clean";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		028E04D316D0861F00B445DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -169,6 +200,8 @@
 			files = (
 				028E04F416D0BA7300B445DD /* SYGButton.m in Sources */,
 				028E04F816D0BA9E00B445DD /* SYGBaseViewController.m in Sources */,
+				028EF7D816D1054700C09C31 /* SYGLabel.m in Sources */,
+				0239B85816D35B9C002101B6 /* SYGTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

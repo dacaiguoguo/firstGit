@@ -23,9 +23,9 @@
 		028E04BA16D0860400B445DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028E049516D0860300B445DD /* Foundation.framework */; };
 		028E04C216D0860400B445DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 028E04C016D0860400B445DD /* InfoPlist.strings */; };
 		028E04C516D0860400B445DD /* SYGUseFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E04C416D0860400B445DD /* SYGUseFrameTests.m */; };
+		028EF7DA16D1067F00C09C31 /* SYGFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028EF7D916D1067F00C09C31 /* SYGFrame.framework */; };
 		02FEF55B16D0C59D00964801 /* fireHulogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FEF55A16D0C59D00964801 /* fireHulogo1.png */; };
 		02FEF55D16D0C5A000964801 /* fireHulogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FEF55C16D0C5A000964801 /* fireHulogo2.png */; };
-		02FEF56416D0E0F600964801 /* SYGFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FEF56316D0E0F600964801 /* SYGFrame.framework */; };
 		02FEF56616D0E3CA00964801 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FEF56516D0E3CA00964801 /* Icon.png */; };
 /* End PBXBuildFile section */
 
@@ -70,9 +70,9 @@
 		028E04C316D0860400B445DD /* SYGUseFrameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGUseFrameTests.h; sourceTree = "<group>"; };
 		028E04C416D0860400B445DD /* SYGUseFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYGUseFrameTests.m; sourceTree = "<group>"; };
 		028E04E816D0861F00B445DD /* SYGFrame.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SYGFrame.xcodeproj; path = SYGFrame/SYGFrame.xcodeproj; sourceTree = "<group>"; };
+		028EF7D916D1067F00C09C31 /* SYGFrame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SYGFrame.framework; path = "../../Library/Developer/Xcode/DerivedData/SYGUseFrame-eyhnbiyyongdtnbkhvoeeeiwzyth/Build/Products/Release-iphoneos/SYGFrame.framework"; sourceTree = "<group>"; };
 		02FEF55A16D0C59D00964801 /* fireHulogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fireHulogo1.png; path = ../fireHulogo1.png; sourceTree = "<group>"; };
 		02FEF55C16D0C5A000964801 /* fireHulogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fireHulogo2.png; path = ../fireHulogo2.png; sourceTree = "<group>"; };
-		02FEF56316D0E0F600964801 /* SYGFrame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SYGFrame.framework; path = "../../Library/Developer/Xcode/DerivedData/SYGUseFrame-gleibaxojdbyvqajyprmlcqihetr/Build/Products/Release-iphoneos/SYGFrame.framework"; sourceTree = "<group>"; };
 		02FEF56516D0E3CA00964801 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +84,7 @@
 				028E049416D0860300B445DD /* UIKit.framework in Frameworks */,
 				028E049616D0860300B445DD /* Foundation.framework in Frameworks */,
 				028E049816D0860300B445DD /* CoreGraphics.framework in Frameworks */,
-				02FEF56416D0E0F600964801 /* SYGFrame.framework in Frameworks */,
+				028EF7DA16D1067F00C09C31 /* SYGFrame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 		028E049216D0860300B445DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				02FEF56316D0E0F600964801 /* SYGFrame.framework */,
+				028EF7D916D1067F00C09C31 /* SYGFrame.framework */,
 				028E049316D0860300B445DD /* UIKit.framework */,
 				028E049516D0860300B445DD /* Foundation.framework */,
 				028E049716D0860300B445DD /* CoreGraphics.framework */,
@@ -197,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 028E04C816D0860400B445DD /* Build configuration list for PBXNativeTarget "SYGUseFrame" */;
 			buildPhases = (
+				028EF7D116D0F1B200C09C31 /* ShellScript */,
 				028E048C16D0860300B445DD /* Sources */,
 				028E048D16D0860300B445DD /* Frameworks */,
 				028E048E16D0860300B445DD /* Resources */,
@@ -312,6 +313,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		028EF7D116D0F1B200C09C31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#xcodebuild -alltargets clean\n#xcodebuild -target \"$targetName\" -configuration Release -sdk iphoneos build\n\n# Building both architectures.\n# FMK_NAME=SYGFrame\n#xcodebuild -configuration \"Release\" \"${FMK_NAME}\" -sdk iphoneos\n#INSTALL_DIR=$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/${FMK_NAME}.framework\n\n# Cleaning the oldest.\n#if [ -d \"${INSTALL_DIR}\" ]\n#then\n#rm -rf \"${INSTALL_DIR}\"\n#fi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -429,7 +443,10 @@
 		028E04C916D0860400B445DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SYGUseFrame-eyhnbiyyongdtnbkhvoeeeiwzyth/Build/Products/Release-iphoneos\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYGUseFrame/SYGUseFrame-Prefix.pch";
 				INFOPLIST_FILE = "SYGUseFrame/SYGUseFrame-Info.plist";
@@ -442,7 +459,10 @@
 		028E04CA16D0860400B445DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/SYGUseFrame-eyhnbiyyongdtnbkhvoeeeiwzyth/Build/Products/Release-iphoneos\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYGUseFrame/SYGUseFrame-Prefix.pch";
 				INFOPLIST_FILE = "SYGUseFrame/SYGUseFrame-Info.plist";
